@@ -70,6 +70,12 @@ $(document).ready(function () {
     },
   });
 });
+
+// if ($(window).height() > $("body").height()) {
+//   $("footer").css("position", "fixed");
+// } else {
+//   $("footer").css("position", "static");
+// }
 // Initialize and add the map
 function initMap() {
   // The location of Uluru
