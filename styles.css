@@ -897,9 +897,9 @@ Mobile respomsive starts
     color: #343434;
   }
   .Social-media a {
+    display: flex;
     margin: 115px 0 100px;
     margin-right: 20px;
-
     height: 35px;
     width: 35px;
   }
@@ -924,19 +924,25 @@ Mobile respomsive starts
     height: 350px;
     width: 350px;
   }
+  .Social-media a {
+    display: flex;
+    margin: 115px 0 100px;
+    margin-right: 20px;
+    height: 35px;
+    width: 35px;
+  }
 }
 /* ---------------------------------------------------- */
 /* ipad*/
 @media (max-width: 991px) {
   .home .home-content .text-2 {
-    font-size: 35px;
+    margin-top: 120px;
+    font-size: 65px;
+    font-weight: 500;
+    margin-left: -3px;
+    margin-left: 10px;
   }
-  .home .fas {
-    font-size: 35px;
-  }
-  .home .home-content .text-3 {
-    font-size: 15px;
-  }
+
   .home .home-content a {
     margin-top: 40px;
   }
@@ -944,6 +950,13 @@ Mobile respomsive starts
   .about .about-content .left img {
     height: 400px;
     width: 400px;
+  }
+  .Social-media a {
+    display: flex;
+    margin: 115px 0 100px;
+    margin-right: 20px;
+    height: 35px;
+    width: 35px;
   }
 }
 /* 
@@ -1046,6 +1059,13 @@ Mobile respomsive starts
     width: 100%;
     margin-bottom: 35px;
   }
+  .Social-media a {
+    display: flex;
+    margin: 115px 0 100px;
+    margin-right: 20px;
+    height: 35px;
+    width: 35px;
+  }
 }
 /* ----------------------------------------- */
 @media (max-width: 690px) {
@@ -1066,6 +1086,13 @@ Mobile respomsive starts
   }
   .services .serv-content .card {
     width: 100%;
+  }
+  .Social-media a {
+    display: flex;
+    margin: 115px 0 100px;
+    margin-right: 20px;
+    height: 35px;
+    width: 35px;
   }
 }
 
@@ -1102,6 +1129,13 @@ Mobile respomsive starts
     width: 35px;
     font-size: 23px;
     line-height: 38px;
+  }
+  .Social-media a {
+    display: flex;
+    margin: 115px 0 100px;
+    margin-right: 20px;
+    height: 35px;
+    width: 35px;
   }
 }
 /* -----------------------------------------------
